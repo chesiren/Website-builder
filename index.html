@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/foundation/5.5.0/css/foundation.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.3.0/js/foundation.min.js"></script>
+
+  <title>Website builder</title>
+  <meta charset="utf-8">
+</head>
+
+<body>
+
+  <div id="page" class="columns hax-accessible">
+    <!-- drop zones (need to add these via jquery) -->
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+        <h1 data-draggable="item">Constructeur de site</h1>
+		<p data-draggable="item"><strong>Fonctionnement:</strong><br>
+- Drag & drop un élément de la sidebar pour l'ajouter à la page.<br>
+- Double clic sur un élément pour ouvrir la fenêtre d'édition.<br>
+- Le bouton Sauvegarder à gauche enregistre la page dans le dossier Téléchargements.<br> 
+        </p>
+        <p data-draggable="item"><strong>Déplacement d'éléments avec le clavier:</strong><br>
+1. <kbd>Tab</kbd> jusqu'à cet item. Pour le sélectionner, appuyer sur <kbd>Espace</kbd>. <br>
+2. <kbd>Tab</kbd> jusqu'à une nouvelle dropzone. <br>
+3. Appuyer sur <kbd>Entrer</kbd> pour confirmer le déplacement. <br>
+Pour dé-sélectionner un élément, appuyer sur <kbd>Echap</kbd>.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-8 sub-target" data-draggable="target" data-equalizer-watch>
+            <button data-draggable="item">Bouton</button>
+          </div>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-8 sub-target" data-draggable="target" data-equalizer-watch>
+            <img data-draggable="item" src="http://placehold.co/1200x400">
+            <img data-draggable="item" src="http://placehold.co/1200x400">
+          </div>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch>
+            <img data-draggable="item" src="http://placehold.co/1200x400">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch>
+            <img data-draggable="item" src="http://placehold.co/1200x400">
+          </div>
+          <div class="columns small-8 sub-target" data-draggable="target" data-equalizer-watch>
+            <img data-draggable="item" src="http://placehold.co/1200x400">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-6 sub-target" data-draggable="target" data-equalizer-watch><img
+              data-draggable="item" src="http://placehold.co/1200x400"></div>
+          <div class="columns small-6 sub-target" data-draggable="target" data-equalizer-watch><img
+              data-draggable="item" src="http://placehold.co/1200x400"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch><img
+              data-draggable="item" src="http://placehold.co/1200x400"></div>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch><img
+              data-draggable="item" src="http://placehold.co/1200x400"></div>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch><img
+              data-draggable="item" src="http://placehold.co/1200x400"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-3 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-3 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-3 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-3 sub-target" data-draggable="target" data-equalizer-watch></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target " data-draggable="target">
+      </div>
+    </div>
+
+    <div class="row layout-garage collapse">
+      <div class="columns small-12 sub-target" data-draggable="target">
+      </div>
+    </div>
+  </div>
+
+  <div id="mySidepanel" class="sidepanel">
+    <button id="save" class="save">Sauvegarder</button>
+
+    <div class="scrolly">
+      <div class="dragto">
+        Bouton
+        <hr>
+        <button data-draggable="item">Bouton</button>
+      </div>
+
+      <div class="dragto">
+        H1 Titre
+        <hr>
+        <h1 data-draggable="item">Titre</h1>
+      </div>
+
+      <div class="dragto">
+        Paragraphe
+        <hr>
+        <p data-draggable="item">Un paragraphe de texte à placer sur la page.</p>
+      </div>
+
+      <div class="dragto">
+        Image
+        <hr>
+        <img data-draggable="item" src="http://placehold.co/1200x400">
+      </div>
+
+      <div class="dragto">
+        Colonnes 8 - 4
+        <hr>
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-8 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch></div>
+        </div>
+      </div>
+
+      <div class="dragto">
+        Colonnes 4 - 8
+        <hr>
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-8 sub-target" data-draggable="target" data-equalizer-watch></div>
+        </div>
+      </div>
+
+      <div class="dragto">
+        Colonnes 6 - 6
+        <hr>
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-6 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-6 sub-target" data-draggable="target" data-equalizer-watch></div>
+        </div>
+      </div>
+
+      <div class="dragto">
+        Colonnes 4 - 4 - 4
+        <hr>
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-4 sub-target" data-draggable="target" data-equalizer-watch></div>
+        </div>
+      </div>
+
+      <div class="dragto">
+        Colonnes 3 - 3 - 3 - 3
+        <hr>
+        <div class="row layout-group" data-draggable="item" data-equalizer>
+          <div class="columns small-3 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-3 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-3 sub-target" data-draggable="target" data-equalizer-watch></div>
+          <div class="columns small-3 sub-target" data-draggable="target" data-equalizer-watch></div>
+        </div>
+      </div>
+    </div>
+    <button id="togglebtn" class="togglebtn" onclick="toggleNav()">◀</button>
+  </div>
+
+
+  <div id="editModal" class="modal">
+    <div class="modal-header">
+      <span id="closeEdit" class="close-modal">&times;</span>
+      <h4 class="modal-title">Modification</h4>
+    </div>
+    <div class="modal-content">
+      <div id="e_text" class="edit_param">
+        <label for="p_area">Texte:</label>
+        <textarea id="p_area" name="p_area" rows="6" cols="50"></textarea>
+      </div>
+
+      <div id="e_alttext" class="edit_param">
+        <label for="p_alt">Alt texte:</label>
+        <textarea id="p_alt" name="p_alt" rows="3" cols="50"></textarea>
+      </div>
+
+      <div id="e_title" class="edit_param">
+        <label for="h1_area">Titre:</label>
+        <input type="text" id="h1_area" name="h1_area">
+      </div>
+
+      <!--div id="e_fontsize" class="edit_param">
+        <label>Taille du texte:</label>
+        <div class="btn-group">
+          <button>8px</button>
+          <button>16px</button>
+          <button>32px</button>
+        </div>
+      </div-->
+
+      <div id="e_imageurl" class="edit_param">
+        <label for="img_url">Lien de l'image:</label>
+        <input type="text" id="img_url" name="img_url">
+      </div>
+
+      <div id="e_bgcolor" class="edit_param">
+        <label for="bgcolorpicker">Couleur du fond:</label>
+        <input type="color" id="bgcolorpicker">
+      </div>
+
+
+      
+
+      <script>
+        document.getElementById("p_area").addEventListener('input', function (e)
+        {
+          curTarget.innerHTML = e.target.value;
+        });
+
+        document.getElementById("p_alt").addEventListener('input', function (e)
+        {
+          curTarget.alt = e.target.value;
+        });
+
+        document.getElementById("h1_area").addEventListener('input', function (e)
+        {
+          curTarget.innerHTML = e.target.value;
+        });
+
+        $("#bgcolorpicker").change(function(){
+          $(curTarget).css('background', $(this).val());
+        });
+
+        document.getElementById("img_url").addEventListener('input', function (e)
+        {
+          curTarget.src = e.target.value;
+          // Reflow foundation for equal height adjustments
+          $(document).foundation('equalizer', 'reflow');
+        });
+
+        var group = document.querySelector(".btn-group").children;
+        for (var e of group)
+        {
+          e.addEventListener('click', function (f)
+          {
+            for (var g of group)
+              g.classList.remove("pressed");
+
+            f.target.classList.add("pressed");
+          });
+        }
+      </script>
+    </div>
+
+  </div>
+
+  <script>
+    var leftPanel = "0";
+    function toggleNav()
+    {
+      if (leftPanel == "0")
+      {
+        document.getElementById("togglebtn").textContent = "▶";
+        leftPanel = "-300px";
+      } else
+      {
+        document.getElementById("togglebtn").textContent = "◀";
+        leftPanel = "0";
+      }
+
+      document.getElementById("mySidepanel").style.left = leftPanel;
+    }
+
+    var modal = document.getElementById("editModal");
+    var span = document.getElementById("closeEdit");
+
+    span.addEventListener('click', function (e)
+    {
+      modal.style.display = "none";
+    });
+  </script>
+  <script src="script.js"></script>
+</body>
+
+</html>
